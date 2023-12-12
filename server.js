@@ -11,7 +11,7 @@ app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({extended:true}))
 
 //Routes
-const ViewersRoute = require('./routes/VIewers')
+const ViewersRoute = require('./routes/Views')
 
 app.use('/viewers', ViewersRoute)
 
