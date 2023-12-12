@@ -1,9 +1,9 @@
 const express = require('express');
 const router = express.Router();
 
-router.get('/getViewers', (req,res) => {
-    response.send("List of Viewers")
+router.get('/Viewers', (req, res) => {
+    res.send("List of Viewers")
 });
 
-module.exports = router;
+module.exports = router
 
